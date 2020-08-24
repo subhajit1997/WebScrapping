@@ -1,13 +1,14 @@
 WebScrapping
+----------------------------------------
 
-Scrapping "https://news.ycombinator.com" Data such as url,title,content_writer,points,time is performed in : WebScrappingService.java
+Scraping "https://news.ycombinator.com" Data such as url,title,etc is performed in : WebScrappingService.java
 
 Storing and retrieving of data is performed in : MongoDbService.java
 
 Main Class to run program :WebScrappingApplicatin.java
 
 Output:
-
+-----------------------------------------
 Start: DocumentInsertIfExist() Collection sampleCollection selected successfully
 
 Collection Data(Relation1) & MetaData(Relation2) sucessfully updated
